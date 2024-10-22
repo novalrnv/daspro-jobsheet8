@@ -1,8 +1,8 @@
-package Tugas;
+package tugas;
 
 import java.util.Scanner;
 
-public class latihan1 {
+public class Latihan112 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n;
