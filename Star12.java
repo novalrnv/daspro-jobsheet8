@@ -7,7 +7,7 @@ public class Star12{
         System.out.print("Masukkan milai N : ");
         int n = input.nextInt();
 
-        for(int i=1 ; i<=n ; i--){
+        for(int i=1 ; i<=n ; i++){
             System.out.print("*");
         }
     }
