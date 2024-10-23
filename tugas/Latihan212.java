@@ -19,18 +19,20 @@ public class Latihan212 {
             System.out.println("Kampus: "+ namakmps);
             
             int jmlhcabor=4;
-            for(int i=1 ; i<=jmlhcabor ; i++){
+            int i=1;
+            while(i<=jmlhcabor){
                 System.out.print("Masukkan nama cabor ke-"+i+" : ");
                 namacabor=input.nextLine();
                 System.out.println("Jenis Cabor : " + namacabor);
-                String daftaratlet = "\n";
+                String daftaratlet = "";
 
                 for(int a=1 ; a<=5 ; a++){
                     System.out.print("Nama atlet ke-"+a+" : ");
                     namaatlet=input.nextLine();
-                    daftaratlet += " -" + namaatlet;
+                    daftaratlet += "\n-" + namaatlet;
                 }
                 System.out.println("atlet "+namacabor+" : "+daftaratlet);
+                i++;
             }
         }
     }
